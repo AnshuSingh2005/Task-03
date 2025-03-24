@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image + Css</title>
+    <style>
+         .Image1{
+            border-radius: 15px;
+           box-shadow: 10px 0px 15px;
+            width: 100%;
+            max-width: 400px;
+            object-fit: cover;
+            border: double;
+        
+         }
+         .Image2{
+            border-radius: 1000px;
+            max-width: 400px;
+            height: 300px;
+            box-shadow: 10px 0px 15px ;
+            border:   dotted black;
+         }
+            .Image3{
+                border-radius: 15px ;
+                max-width: 400px;
+                height: 300px;
+                border: solid;
+            }
+            body{
+                background-color: rgb(199, 234, 234);
+            }
+            .Image1:hover{
+                transform:scale(1.20);
+            }
+            .Image2:hover{
+                transform:scale(1.20);
+               
+            }
+            .Image3:hover{
+                transform:scale(1.20);
+            }
+         
+    </style>
+</head>
+<body>
+    <div class="Styling"></div>
+    <img src="Village 01.webp" alt="Nature 01" class="Image1">
+    <img src="Village 02.jpg" alt="Nature 02"class="Image2">
+    <img src="Village 03.jpg" alt="Nature 03" class="Image3">
+</body>
+</html>
